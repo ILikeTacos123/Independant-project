@@ -1,0 +1,148 @@
+.navbar-custom { 
+    background-color: #FBEEC1;
+    height: 70px; 
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.3);
+    color: #8D8741 !important; 
+} 
+
+.navbar-brand {
+    display: inline-flex;
+    color: #8D8741 !important; 
+    margin-top: 10px;
+    vertical-align: middle;
+    font-family: 'Potta One', cursive;
+    font-size: 30px !important;
+    color: #8D8741 !important; 
+}
+  
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: #8D8741 !important; 
+} 
+
+.navbar-text{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+    color: #8D8741 !important;  
+}
+
+.nav li a:focus, .nav li a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    color: #659DBD !important;  
+}
+
+.nav li a {
+    color: #8D8741 !important;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    margin-top: -25px;
+    margin-left: -10px;
+}
+
+.dropdown-menu {
+    margin: 10px;
+    display: none;
+    position: absolute;
+    background-color: #FBEEC1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    padding: 15px;
+    font-size: 17px;
+}
+
+.intro-img {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    top: 0px;
+    left: 0;
+}
+
+#heading1 {
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 100px;
+    font-size: 70px;
+    font-family: 'Potta One', cursive;
+    text-shadow: 2px 2px 5px black;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+    display: table;
+}
+
+.images1 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    border: ridge;
+    float: left;
+}
+
+.images2 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    border: ridge;
+    float: right;
+}
+
+.div1 {
+    color: #8D8741;
+    padding: 30px;
+    position: relative;
+}
+
+.div2 {
+    color: #8D8741;
+    padding: 30px;
+    position: relative;
+}
+
+.headings {
+    font-weight: bold;
+    font-family: 'Potta One', cursive;
+}
+
+.parahs {
+    font-weight: lighter;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+hr {
+    border: 5px solid black;
+}
+
+#end {
+    position: relative;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    background-color: #659DBD;
+    height: 100px;
+    text-align: center;
+    margin-top: -30px;
+    padding: 20px;
+}
+
+.heading-end {
+    color: black;
+    font-family: 'Potta One', cursive;
+
+}
